@@ -3,9 +3,9 @@ import styled from "styled-components";
 const Main = styled.main`
     display: flex;
     flex-direction: row-reverse;
-    height: 70vh;
-    padding-inline: 5%;
-    gap: 3%;
+    padding-left: 5%;
+    gap: 9%;
+    z-index: 0;
 `
 
 const Ellipse = styled.img`
@@ -16,7 +16,10 @@ const Ellipse = styled.img`
 `
 
 const Div = styled.div`
-    margin-top: 8%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `
 
 const BigGlass = styled.img`
@@ -29,7 +32,6 @@ const Container = styled.section`
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    height: 75vh;
 ` 
 
 const Title = styled.h2`
@@ -61,6 +63,7 @@ const DivGlass = styled.div`
     display: flex;
     justify-content: end;
     gap: 50px;
+    margin-top: 5rem;
 `
 
 const MiniGlass = styled.img`

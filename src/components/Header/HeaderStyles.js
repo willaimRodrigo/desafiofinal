@@ -5,8 +5,9 @@ const Header = styled.header`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 22vh;
+    height: 25vh;
     width: 100vw;
+    background-color: white;
 `
 const Section = styled.section`
     display: flex;
