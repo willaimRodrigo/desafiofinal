@@ -12,6 +12,10 @@ const Button = styled.button`
     font-weight: 700;
     font-size: 1.5rem;
     line-height: 29.05px;
+
+    &:hover {
+        color: #990;
+    }
 `
 
 export default {

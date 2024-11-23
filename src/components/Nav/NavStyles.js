@@ -17,6 +17,12 @@ const Li = styled.li`
         font-weight: 400;
         font-size: 24px;
         line-height: 36px;
+
+        &:hover{
+            font-size: 26px;
+            font-weight: 600;
+            color: #1E3950;
+        }
     }
 `
 

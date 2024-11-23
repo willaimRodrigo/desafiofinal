@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 const Main = styled.main`
     display: flex;
@@ -21,10 +21,18 @@ const Div = styled.div`
     justify-content: center;
     align-items: center;
 `
+const scaleIn = keyframes`
+    from {
+        transform: scale(0.4);
+    } to {
+        transform: scale(1);
+    }
+`
 
 const BigGlass = styled.img`
     width: 30rem;
     height: 31.3rem;
+    animation: ${scaleIn} 1s ease-in-out;
     
 `
 
@@ -69,6 +77,12 @@ const DivGlass = styled.div`
 const MiniGlass = styled.img`
     height: 113px;
     width: 109px;
+    transition: transform 0.5s ease-out;
+
+    &:hover{
+        transform: rotate(360deg);
+        animation: ${scaleIn} 1s ease-in-out;
+    }
 `
 
 export default {
