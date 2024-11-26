@@ -40,13 +40,15 @@ export const Home = () => {
             </div> */}
             <Styles.Container>
                 <div>
-                    <Styles.Title>Mais que Café Aplicar efetios giratórios no copo</Styles.Title>
+                    <Styles.Title>Mais que Café</Styles.Title>
                     <Styles.Title2>Isso é <Styles.Span>Starbucks</Styles.Span></Styles.Title2>
                     <Styles.Paragraph>A Starbucks oferece uma variedade de cafés de alta qualidade. 
                         Alguns dos cafés mais populares incluem o Caffè Americano, o Cappuccino, o Latte Macchiato e o Espresso.
                         Além disso, a Starbucks oferece bebidas quentes e frias, doces diferenciados e sanduíches.
                     </Styles.Paragraph>
-                    <Button />
+                    <a href="https://www.starbucksathome.com/br/" target="blank">
+                        <Button />
+                    </a> 
                 </div>
                 <Styles.DivGlass>
                     <Styles.MiniGlass src={laranja} 

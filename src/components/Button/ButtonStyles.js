@@ -16,6 +16,12 @@ const Button = styled.button`
     &:hover {
         color: #990;
     }
+
+    @media (max-width: 450px) {
+        width: 12rem;
+        height: 3rem;
+        font-size: 1.15rem;
+    }
 `
 
 export default {
