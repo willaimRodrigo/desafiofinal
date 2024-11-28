@@ -20,8 +20,7 @@ const GlobalStyles = createGlobalStyle`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: Poppins, sans-serif; 
-
+    font-family: Poppins, sans-serif;
   }
 
 `;

@@ -13,7 +13,7 @@ const Main = styled.main`
 
     @media (max-width: 450px) {
         padding-left: 0;
-        width: 90vw;
+        width: 100vw;
     }
 `
 
@@ -58,7 +58,24 @@ const Container = styled.section`
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-` 
+
+    @media (max-width: 450px) {
+        display: flex;
+        width: 100vw;
+        align-items: center;
+    }
+`
+
+const First = styled.div`
+
+
+    @media (max-width: 450px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;
+    }
+`
 
 const Title = styled.h2`
     font-weight: 400;
@@ -70,6 +87,7 @@ const Title = styled.h2`
         line-height: 47px;
 
         margin-top: 20px;
+        text-align: center;
     }
 `
 
@@ -81,6 +99,7 @@ const Title2 = styled.h1`
     @media (max-width: 450px) {
         font-size: 2rem;
         line-height: 56px;
+        text-align: center;
     }
 `
 
@@ -103,6 +122,7 @@ const Paragraph = styled.p`
 
     @media (max-width: 450px) {
         font-size: 1rem;
+        text-align: center;
     }
 `
 
@@ -140,6 +160,7 @@ export default {
     Div,
     BigGlass,
     Container,
+    First,
     Title,
     Title2,
     Span,

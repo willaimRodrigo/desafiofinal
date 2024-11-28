@@ -39,7 +39,7 @@ export const Home = () => {
                 <img src={github} alt="Icone do github" />
             </div> */}
             <Styles.Container>
-                <div>
+                <Styles.First>
                     <Styles.Title>Mais que Café</Styles.Title>
                     <Styles.Title2>Isso é <Styles.Span>Starbucks</Styles.Span></Styles.Title2>
                     <Styles.Paragraph>A Starbucks oferece uma variedade de cafés de alta qualidade. 
@@ -49,7 +49,7 @@ export const Home = () => {
                     <a href="https://www.starbucksathome.com/br/" target="blank">
                         <Button />
                     </a> 
-                </div>
+                </Styles.First>
                 <Styles.DivGlass>
                     <Styles.MiniGlass src={laranja} 
                     alt="Copo de bebida da starbucks com chantilin em cima" 
