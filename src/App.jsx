@@ -3,6 +3,7 @@ import { Header } from "./components/Header";
 import { RouterMain } from "./components/routes/RouterMain";
 
 import GlobalStyles from "./GlobalStyles";
+import InstallPWA from "./components/InstallPwa";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <GlobalStyles />
           <Header />
           <RouterMain />
+          <InstallPWA />
         </BrowserRouter>
 
     </>
